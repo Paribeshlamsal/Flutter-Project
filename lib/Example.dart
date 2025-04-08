@@ -7,31 +7,10 @@ class Example extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("This is titile"),
+        title: Text("This is title"),
         centerTitle: true,
         backgroundColor: Colors.red,
       ),
-      // body: Column(
-      //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      //   crossAxisAlignment: CrossAxisAlignment.center,
-      //   mainAxisSize: MainAxisSize.max,
-
-      //   children: [
-      //     Text("This is Column", style: TextStyle(fontSize: 28)),
-      //     Container(width: 200, height: 200, color: Colors.red),
-      //   ],
-      // ),
-      // body: Padding(
-      //   padding: const EdgeInsets.all(18.0),
-      //   child: Row(
-      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      //     crossAxisAlignment: CrossAxisAlignment.center,
-      //     children: [
-      //       Text("This is Row", style: TextStyle(fontSize: 28)),
-      //       Container(width: 200, height: 200, color: Colors.black),
-      //     ],
-      //   ),
-      // ),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -39,9 +18,25 @@ class Example extends StatelessWidget {
             width: 500,
             height: 500,
             color: Colors.red,
-            alignment: Alignment.topLeft,
             padding: EdgeInsets.all(20),
-            child: Container(width: 200, height: 100, color: Colors.black),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(width: 200, height: 100, color: Colors.black),
+                    Text(
+                      "Hello !! How are you ?",
+                      style: TextStyle(fontSize: 18, color: Colors.white),
+                    ),
+                    Container(width: 200, height: 100, color: Colors.black),
+                  ],
+                ),
+                Container(width: 150, height: 100, color: Colors.black),
+              ],
+            ),
           ),
         ),
       ),
