@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_4/Example.dart';
 import 'package:flutter_application_4/Img.dart';
 import 'package:flutter_application_4/button_example.dart';
+import 'package:flutter_application_4/calculator.dart';
 import 'package:flutter_application_4/counterapp.dart';
 import 'package:flutter_application_4/firstpage.dart';
+import 'package:flutter_application_4/form_example.dart';
 import 'package:flutter_application_4/homepage.dart';
 import 'package:flutter_application_4/sizebox.dart';
 
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         //
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Sizebox(),
+      home: FormExample(),
     );
   }
 }
