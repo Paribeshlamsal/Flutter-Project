@@ -9,6 +9,7 @@ import 'package:flutter_application_4/design.dart';
 import 'package:flutter_application_4/firstpage.dart';
 import 'package:flutter_application_4/form_example.dart';
 import 'package:flutter_application_4/homepage.dart';
+import 'package:flutter_application_4/newdesign.dart';
 import 'package:flutter_application_4/sizebox.dart';
 
 void main() {
