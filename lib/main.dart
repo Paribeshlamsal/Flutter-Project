@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_4/Example.dart';
 import 'package:flutter_application_4/Img.dart';
+import 'package:flutter_application_4/applemusicdesign.dart';
 // import 'package:flutter_application_4/abc.dart';
 import 'package:flutter_application_4/button_example.dart';
 import 'package:flutter_application_4/calculator.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         //
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Firstscreen(), // Change this to the desired widget
+      home: AppleMusicDesign(), // Change this to the desired widget
     );
   }
 }
